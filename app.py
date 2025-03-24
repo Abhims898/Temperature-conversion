@@ -1,6 +1,6 @@
 from flask import Flask, render_template_string, request
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
